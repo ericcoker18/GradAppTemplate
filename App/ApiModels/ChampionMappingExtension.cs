@@ -18,9 +18,7 @@ namespace App.ApiModels
                 Rank = champion.Rank,
                 LaneId = champion.LaneId,
                 UserId = champion.UserId,
-                Lane = champion.Lane.RoleName,
-                ///add user??
-
+                // Lane = champion.Lane.RoleName
             };
             
         }
@@ -34,7 +32,6 @@ namespace App.ApiModels
                 Rank = championModel.Rank,
                 LaneId = championModel.LaneId,
                 UserId = championModel.UserId,
-                Lane = null,
             };
             
         }

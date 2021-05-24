@@ -4,7 +4,7 @@ using System.Text;
 
 namespace App.Core.Services
 {
-    public class LaneService : ILaneRepository
+    public class LaneService : ILaneService
     {
         private readonly ILaneRepository _laneService;
 

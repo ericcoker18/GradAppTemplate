@@ -18,7 +18,7 @@ namespace App.Infrastructure.Data
 
         public LaneService Add(LaneService newlane)
         {
-          
+            return newlane;
         }
 
         public LaneService Get(int id)
