@@ -5,10 +5,11 @@ using App.Core.Models;
 
 namespace App.Core.Services
 {
-    class ChampionServices : IChampionRepository {
+    public class ChampionServices : IChampionServices {
+        
         private readonly IChampionRepository _championRepository;
 
-            public ChampionServices(IChampionRepository championService)
+        public ChampionServices(IChampionRepository championService)
         {
             _championRepository = championService;
         }

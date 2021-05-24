@@ -7,9 +7,6 @@ namespace App.ApiModels
 {
     public class UserMappingExtension
     {
-        public UserModel ToApiModel(this UserModel user)
-        {
-         
-        }
+
     }
 }
